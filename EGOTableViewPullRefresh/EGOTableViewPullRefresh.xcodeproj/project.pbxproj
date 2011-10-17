@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52510638143605AC00680AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52510637143605AC00680AB0 /* Foundation.framework */; };
-		5251064B1436061700680AB0 /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 525106491436061700680AB0 /* EGORefreshTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5251064B1436061700680AB0 /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 525106491436061700680AB0 /* EGORefreshTableHeaderView.h */; settings = {ATTRIBUTES = (); }; };
 		5251064C1436061700680AB0 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251064A1436061700680AB0 /* EGORefreshTableHeaderView.m */; };
 /* End PBXBuildFile section */
 
@@ -171,6 +171,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -189,6 +190,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
